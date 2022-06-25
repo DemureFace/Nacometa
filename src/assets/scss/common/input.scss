@@ -1,0 +1,44 @@
+input,
+.input {
+  padding: 10px;
+  height: 24px;
+  width: 500px;
+  background: #F9F9F9;
+    border: 1px solid #E9E9E9;
+    border-radius: 5px;
+    margin-bottom: 20px;
+
+    @include transition(ease-out, 0.5s); 
+
+    &:focus {
+        background: $light;
+        border: 1px solid $black;
+      }
+
+      
+}
+
+label {
+  
+  font: 400 16px/24px $fontRegular;
+  color: $black;
+  margin-bottom: 10px;
+  display: block;
+
+}
+
+textarea {
+  padding: 10px;
+  width: 500px;
+  height: 60px;
+  background: #F9F9F9;
+  border: 1px solid #E9E9E9;
+  border-radius: 5px;
+    
+  @include transition(ease-out, 0.5s);
+  
+  &:focus {
+        background: $light;
+        border: 1px solid $black;
+      }
+}

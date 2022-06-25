@@ -1,0 +1,11 @@
+button {
+  outline: none;
+  @include transition(ease-in-out);
+
+  &:focus,
+  &:active,
+  &:hover {
+    outline: none;
+    cursor: pointer;
+  }
+}

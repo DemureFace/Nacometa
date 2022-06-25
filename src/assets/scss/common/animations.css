@@ -1,0 +1,13 @@
+.show-from-left-enter-active,
+.show-from-left-leave-active {
+  -webkit-transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  transition: all 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+
+.show-from-left-enter-from,
+.show-from-left-leave-to {
+  opacity: 0;
+  -webkit-transform: translateX(-30px);
+          transform: translateX(-30px);
+}
+/*# sourceMappingURL=animations.css.map */
